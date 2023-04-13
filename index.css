@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+main{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bot{
+    /* margin-top: 7%; */
+    margin-left: 30px;
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 260px;
+    height: 460px;
+    border-radius: 15px;
+}
+.blue{
+    color: hsl(178, 100%, 50%)
+}
+.gray{
+    color: hsl(215, 51%, 70%)
+}
+.ava{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.icons{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.navodka:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.hmm:hover {
+    cursor: pointer;
+    background-color:hsl(178, 100%, 50%);
+}
+.spac{
+ margin-left: 5px;
+}
+.icon, .clock{
+    display: flex;
+    flex-direction: row;
+}
+.small{
+    font-size: 16px;
+}
+.line{
+    margin-top: 5%;
+    width: 210px;
+        height: 1px;
+        background: hsl(215, 32%, 27%);
+        opacity: 0.9;
+}
+.cube {
+    opacity: 1;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.overlay{
+
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+
+}
+ 
+.img-container:hover:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+    /* z-index: 1; */
+    opacity: 0.7;
+  }
+  .img-top{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 220px;
+    transform: translate(-50%, -50%);
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+    opacity: 0;
+    
+  }
+  .img-top:hover{
+    opacity: 0.4;
+}
+  .anchor {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    margin-block-end: 15px;
+  }
+  
+  .anchor:hover {
+    color: hsl(178, 100%, 50%);
+    opacity: 0.8;
+  }
+.eq{
+    margin-bottom: 5%;
+}
+.avatar{
+    width: 210px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.jules{
+    color: white;
+}
+.white {
+    color: white;
+    font-size: 18px;
+}
+
+/* My info */
+.kudzuya {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.kudzuya a {
+    color: whitesmoke;
+    font-size: 16px;
+    transition: 0.5;
+}
+
+.kudzuya a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* My info ends*/
